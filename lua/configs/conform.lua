@@ -14,7 +14,14 @@ local options = {
                 IndentWidth: 4, \
                 AlignConsecutiveAssignments: Consecutive, \
                 AlignConsecutiveMacros: Consecutive, \
-                AlignEscapedNewlines: LeftWithLastLine}",
+                AlignEscapedNewlines: LeftWithLastLine, \
+                AllowShortCaseLabelsOnASingleLine: true, \
+                AlignConsecutiveShortCaseStatements: {\
+                  Enabled: true, \
+                  AcrossEmptyLines: false, \
+                  AcrossComments:  false, \
+                  AlignCaseArrows: false, \
+                  AlignCaseColons: false}}",
             },
         },
         -- Python

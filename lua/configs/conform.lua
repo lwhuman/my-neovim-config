@@ -17,11 +17,12 @@ local options = {
                 AlignEscapedNewlines: LeftWithLastLine, \
                 AllowShortCaseLabelsOnASingleLine: true, \
                 AlignConsecutiveShortCaseStatements: {\
-                  Enabled: true, \
-                  AcrossEmptyLines: false, \
-                  AcrossComments:  false, \
-                  AlignCaseArrows: false, \
-                  AlignCaseColons: false}}",
+                    Enabled: true, \
+                    AcrossEmptyLines: false, \
+                    AcrossComments:  false, \
+                    AlignCaseArrows: false, \
+                    AlignCaseColons: false}, \
+                IndentCaseLabels: true}",
             },
         },
         -- Python

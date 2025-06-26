@@ -22,7 +22,9 @@ local options = {
                     AcrossComments:  false, \
                     AlignCaseArrows: false, \
                     AlignCaseColons: false}, \
-                IndentCaseLabels: true}",
+                IndentCaseLabels: true, \
+                AccessModifierOffset: -4, \
+                IndentAccessModifiers: false}",
             },
         },
         -- Python

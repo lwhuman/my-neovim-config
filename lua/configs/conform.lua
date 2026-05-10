@@ -25,8 +25,8 @@ local options = {
                     IndentCaseLabels: true, \
                     BinPackParameters: OnePerLine, \
                     BinPackArguments: false, \
-                    AllignAfterOpenBracket: BlockIndent, \
-                    AllowshortIfStatementsOnASingleLine: WithoutElse, \
+                    AlignAfterOpenBracket: BlockIndent, \
+                    AllowShortIfStatementsOnASingleLine: WithoutElse, \
                     IndentAccessModifiers: false}",
             },
         },

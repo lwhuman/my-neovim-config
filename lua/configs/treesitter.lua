@@ -16,6 +16,7 @@ local options = {
         "vim",
         "vimdoc",
         "yaml",
+        "rust",
     },
 
     highlight = {
@@ -26,4 +27,23 @@ local options = {
     indent = { enable = true },
 }
 
-require("nvim-treesitter.configs").setup(options)
+-- require("nvim-treesitter.configs").setup(options)
+
+require("nvim-treesitter").install({
+    "bash",
+    "c",
+    "cmake",
+    "cpp",
+    "fish",
+    "lua",
+    "luadoc",
+    "make",
+    "markdown",
+    "printf",
+    "python",
+    "toml",
+    "vim",
+    "vimdoc",
+    "yaml",
+    "rust",
+})

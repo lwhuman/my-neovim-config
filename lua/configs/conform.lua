@@ -10,21 +10,25 @@ local options = {
         ["clang-format"] = {
             prepend_args = {
                 "-style={ \
-                BasedOnStyle: LLVM, \
-                IndentWidth: 4, \
-                AlignConsecutiveAssignments: Consecutive, \
-                AlignConsecutiveMacros: Consecutive, \
-                AlignEscapedNewlines: LeftWithLastLine, \
-                AllowShortCaseLabelsOnASingleLine: true, \
-                AlignConsecutiveShortCaseStatements: {\
-                    Enabled: true, \
-                    AcrossEmptyLines: false, \
-                    AcrossComments:  false, \
-                    AlignCaseArrows: false, \
-                    AlignCaseColons: false}, \
-                IndentCaseLabels: true, \
-                AccessModifierOffset: -4, \
-                IndentAccessModifiers: false}",
+                    BasedOnStyle: LLVM, \
+                    IndentWidth: 4, \
+                    AlignConsecutiveAssignments: Consecutive, \
+                    AlignConsecutiveMacros: Consecutive, \
+                    AlignEscapedNewlines: LeftWithLastLine, \
+                    AllowShortCaseLabelsOnASingleLine: true, \
+                    AlignConsecutiveShortCaseStatements: {\
+                        Enabled: true, \
+                        AcrossEmptyLines: false, \
+                        AcrossComments:  false, \
+                        AlignCaseArrows: false, \
+                        AlignCaseColons: false}, \
+                    IndentCaseLabels: true, \
+                    BinPackParameters: OnePerLine, \
+                    BinPackArguments: false, \
+                    AllignAfterOpenBracket: BlockIndent, \
+                    AllignAfterOpenBracket: BlockIndent, \
+                    AllowshortIfStatementsOnASingleLine: WithoutElse, \
+                    IndentAccessModifiers: false}",
             },
         },
         -- Python

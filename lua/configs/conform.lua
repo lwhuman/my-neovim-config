@@ -26,7 +26,6 @@ local options = {
                     BinPackParameters: OnePerLine, \
                     BinPackArguments: false, \
                     AllignAfterOpenBracket: BlockIndent, \
-                    AllignAfterOpenBracket: BlockIndent, \
                     AllowshortIfStatementsOnASingleLine: WithoutElse, \
                     IndentAccessModifiers: false}",
             },
